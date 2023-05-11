@@ -7,6 +7,12 @@
     "type": "git",
     "url": "https://github.com/jonthemiller/eslint-config-typescript.git"
   },
+  "publishConfig": {
+    "@jonthemiller:registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "test": "exit 0"
+  },
   "main": "index.js",
   "exports": {
     ".": "./index.js"
